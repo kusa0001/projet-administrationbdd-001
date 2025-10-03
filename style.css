@@ -1,0 +1,86 @@
+/* style.css */
+
+/* Corps de page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+    color: #333;
+}
+
+/* Titres */
+h1 {
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Boutons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Liens avec boutons */
+a button {
+    text-decoration: none;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Ligne de formulaire de création/édition */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 90%;
+}
+
+form button {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/* Hover sur lignes de table */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Sélecteur multiple pour rôles */
+select[multiple] {
+    height: 80px;
+}
